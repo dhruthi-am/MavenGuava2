@@ -24,7 +24,7 @@ pipeline{
 		}
 		stage('Run Application'){
 			steps{
-				sh 'mvn exec:java -Dexec.mainClass="com.example.App"
+				sh 'mvn exec:java -Dexec.mainClass="com.example.App"'
 			}
 		}
 	}
